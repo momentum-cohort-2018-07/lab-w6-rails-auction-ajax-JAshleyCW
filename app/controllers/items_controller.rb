@@ -16,6 +16,7 @@ class ItemsController < ApplicationController
   def edit
   end
 
+  # need to change for AJAX, create, update, and destroy
   def create
     @item = Item.new(item_params)
 
